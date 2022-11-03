@@ -13,7 +13,7 @@ export const LandingPage = () => {
               <img
                 className="w-20 h-auto rounded-full inline-flex"
                 src="https://res.cloudinary.com/doo5jbomi/image/upload/v1667316629/PomodoroApp/maruthi_kqyegf.gif"
-                alt=""
+                alt="profile"
               />
             </span>{" "}
             Maruthi.

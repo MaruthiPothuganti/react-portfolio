@@ -6,7 +6,6 @@ import { Navbar } from "./Components/Navbar";
 function App() {
   return (
     <main className="App relative h-screen">
-
       <Navbar/>
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
@@ -17,7 +16,6 @@ function App() {
         <Route path="/about" element={<Info />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
     </main>
   );
 }
