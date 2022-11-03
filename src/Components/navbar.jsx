@@ -38,16 +38,16 @@ export const Navbar = () => {
   ];
 
   return (
-    <nav className="flex flex-col absolute top-[40%] left-8 bg-[#1e1e1e] border-[#28282852] p-1 rounded-md">
+    <nav className="flex flex-col absolute top-[40%] left-8 bg-[#1e1e1e] border-[#28282852] p-1 rounded-2xl">
       {menu.map((menuItem) => (
         <NavLink
           to={menuItem.path}
           key={menuItem.name}
           className={({ isActive }) =>
-            isActive ? "text-sky-300" : "text-slate-400"
+            isActive ? "text-white" : "text-slate-600"
           }
         >
-          <div className="m-2 bg-[#0d0d0d] p-2 rounded-md">
+          <div className="m-2 bg-[#0d0d0d] p-2 rounded-xl">
             <menuItem.icon size={28} title={menuItem.name} />
           </div>
         </NavLink>
