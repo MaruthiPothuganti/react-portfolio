@@ -4,7 +4,7 @@ import { FiArrowUpRight } from "../Components/Icons";
 export const Contact = () => {
   return (
     <main className="h-screen w-full grid place-items-center text-white">
-      <article className="grid gap-4">
+      <article className="w-[90%] md:w-[auto] grid gap-4">
         <div className="text-center leading-relaxed">
           <h1 className="text-5xl mb-8">The Stage is Yours</h1>
           <p className="text-lg tracking-wide">

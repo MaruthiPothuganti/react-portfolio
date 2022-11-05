@@ -24,7 +24,7 @@ export const Info = () => {
 
   return (
     <main className="h-screen w-full grid place-items-center text-white overflow-y-auto">
-      <article className="grid gap-8 mb-[10%] mt-[10%]">
+      <article className="w-[90%] md:w-[auto] grid gap-8 mb-[10%] mt-[10%]">
         <h1 className="text-5xl text-center">Meet Maruthi</h1>
         <section className="">
           <div className="max-w-2xl p-2  rounded-lg border-2 border-stone-900 hover:border-stone-800">
@@ -68,7 +68,9 @@ export const Info = () => {
                 <h2 className="text-2xl font-bold my-2">Skills</h2>
                 <div className="my-4 gap-3 flex flex-wrap">
                   {skills.map((skill) => (
-                    <span className="border-[1px] rounded-sm p-2">{skill}</span>
+                    <span key={skill} className="border-[1px] rounded-sm p-2">
+                      {skill}
+                    </span>
                   ))}
                 </div>
               </div>

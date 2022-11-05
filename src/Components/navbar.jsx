@@ -37,8 +37,10 @@ export const Navbar = () => {
     },
   ];
 
+  // flex absolute top-[40%] left-8 bg-[#1e1e1e] border-[#28282852] p-1 rounded-2xl
+
   return (
-    <nav className="flex flex-col absolute top-[40%] left-8 bg-[#1e1e1e] border-[#28282852] p-1 rounded-2xl">
+    <nav className="flex bg-[#1e1e1e] border-[#28282852] p-1 rounded-2xl absolute flex-col top-[40%] left-8">
       {menu.map((menuItem) => (
         <NavLink
           to={menuItem.path}

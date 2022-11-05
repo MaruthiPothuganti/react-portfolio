@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export const LandingPage = () => {
   return (
     <main className="h-screen w-full grid place-items-center text-white">
-      <article className="grid gap-4">
-        <div className="text-5xl text-center leading-relaxed">
+      <article className="w-[90%] md:w-[auto] grid gap-4">
+        <div className="text-4xl md:text-5xl text-center leading-relaxed">
           <p>
             Hey, I'm{" "}
             <span>
