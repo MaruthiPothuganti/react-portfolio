@@ -9,7 +9,7 @@ export const ProjectCard = () => {
         alt="project"
       />
       <div className="grid p-4 gap-2">
-        <h6 className="text-2xl">Project Name</h6>
+        <h2 className="text-2xl">Project Name</h2>
         <p className="text-sm text-slate-400">type</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quidem

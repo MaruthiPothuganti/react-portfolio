@@ -3,7 +3,7 @@ import React from "react";
 export const Blogs = () => {
   return (
     <main className="h-screen w-full grid place-items-center text-white">
-      <article className="grid gap-8">
+      <article className="grid gap-8 mb-[10%] mt-[10%]">
         <h1 className="text-5xl text-center">Thoughts</h1>
         <section className=" text-center">
           Coming soon...
