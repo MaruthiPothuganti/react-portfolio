@@ -14,3 +14,4 @@ export {
 export { RiReactjsLine } from "react-icons/ri";
 export { CgHello } from "react-icons/cg";
 export { BsGithub } from "react-icons/bs";
+export { FaGraduationCap, FaUserGraduate } from "react-icons/fa";

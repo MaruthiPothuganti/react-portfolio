@@ -8,6 +8,8 @@ import {
   TbBrandCss3,
   TbBrandHtml5,
   TbBrandJavascript,
+  FaUserGraduate,
+  FaGraduationCap,
 } from "../Components/Icons";
 import { Link } from "react-router-dom";
 
@@ -19,7 +21,7 @@ export const Info = () => {
     { icon: RiReactjsLine, skill: "ReactJS" },
     { icon: SiRedux, skill: "Redux Toolkit" },
     { icon: TbBrandTailwind, skill: "TailwindCSS" },
-    { icon: "", skill: "ES+" },
+    { icon: "", skill: "ES6+" },
     { icon: "", skill: "Responsive Web Design" },
   ];
 
@@ -64,6 +66,29 @@ export const Info = () => {
                   </div>
                 </div>
               </div>
+              <div className="my-3">
+                <h2 className="text-2xl font-bold my-2">Education</h2>
+                <div className="flex my-4 gap-2">
+                  <div className="flex p-1 gap-2">
+                    <div className="p-4 rounded-full border-2 border-stone-900">
+                      <FaUserGraduate size={46} />
+                    </div>
+                    <div className="self-center">
+                      <h3 className="font-bold text-xl">VITS(Karimnagar)</h3>
+                      <p className="text-slate-400">B.Tech(EEE) • 2017-2020</p>
+                    </div>
+                  </div>
+                  <div className="flex p-1 gap-2">
+                    <div className="p-4 rounded-full border-2 border-stone-900">
+                      <FaGraduationCap size={46} />
+                    </div>
+                    <div className="self-center">
+                      <h3 className="font-bold text-xl">GP(Bellampalli)</h3>
+                      <p className="text-slate-400">Diploma(EEE) • 2015-2017</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <hr className="border-stone-900" />
               <div className="my-3">
                 <h2 className="text-2xl font-bold my-2">Skills</h2>
@@ -82,6 +107,7 @@ export const Info = () => {
                 </div>
               </div>
             </div>
+
             <hr className="border-stone-900" />
             <Link to="/contact">
               <button className="text-2xl my-4 border-[1px] px-4 py-2  rounded-md hover:bg-white hover:text-black">

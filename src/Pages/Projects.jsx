@@ -1,6 +1,7 @@
 import React from "react";
 import { ProjectCard } from "../Components/ProjectCard";
 import { projects } from "../Components/projects";
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
   return (
@@ -9,7 +10,9 @@ export const Projects = () => {
         <h1 className="text-4xl md:text-5xl text-center">Projects</h1>
         <section className="grid gap-4">
           {projects.map((project) => (
-            <ProjectCard key={project.title} project={project} />
+            <Link key={project.title} to={`/projects/${project.title}`}>
+              <ProjectCard project={project} />
+            </Link>
           ))}
         </section>
       </article>

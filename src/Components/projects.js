@@ -10,10 +10,12 @@ export const projects = [
         techStack: ["ReactJS", "Context-API","React Draft Wysiwyg","TailwindCSS"],
         links: [{
             platform: "GitHub",
+            type:"Source code",
             icon: BsGithub,
             hyperlink:"https://github.com/MaruthiPothuganti/Inscrire"
         },{
             platform: "Netlify",
+            type:"Live Preview",
             icon: SiNetlify,
             hyperlink:"https://inscrire.netlify.app/"
             }],
@@ -27,15 +29,17 @@ export const projects = [
         techStack: ["ReactJS", "Redux Tool-Kit","Material-UI"],
         links: [{
             platform: "GitHub",
+            type:"Source code",
             icon: BsGithub,
             hyperlink:"https://github.com/MaruthiPothuganti/Lube---Video-Streaming-App"
         },{
             platform: "Vercel",
+            type:"Live Preview",
             icon: TbBrandVercel,
             hyperlink:"https://lube-video-streaming-app-maruthipothuganti.vercel.app/"
             }],
         tldr:"A Video Streaming App Built with React, Redux ToolKit and Material UI",
-        description:"A Video Streaming App Built with React, Redux ToolKit and Material UI. <br/>Features: Home Page, Video Listing Page, Playlist Management, Like/Dislike, Watch Later, History, DarkMode and Responsive WebApp"
+        description:"A Video Streaming App Built with React, Redux ToolKit and Material UI. Features: Home Page, Video Listing Page, Playlist Management, Like/Dislike, Watch Later, History, DarkMode and Responsive WebApp"
     },
     {
         title: "L-Suitify",
@@ -44,15 +48,17 @@ export const projects = [
         techStack: ["ReactJS","VanillaCSS and Light-UI", "Context-API"],
         links: [{
             platform: "GitHub",
+            type:"Source code",
             icon: BsGithub,
             hyperlink:"https://github.com/MaruthiPothuganti/L-Suitify"
         },{
             platform: "Vercel",
+            type:"Live Preview",
             icon: TbBrandVercel,
             hyperlink:"https://lsuitify.vercel.app/"
             }],
         tldr:"An E-commerce App for Suits built with ReactJS",
-        description:"An E-commerce App for Suits built with ReactJS <br/> Features:- <br/>Home Page- landing page with a list of featured categories. <br/>Product Listing Page- where users can see all the products listed with filter section. Users can also add products to their wishlist and cart. <br/> Wishlist and Cart Management - where users can manage their products.<br/> Authentication and Payment Integration."
+        description:"An E-commerce App for Suits built with ReactJS  Features:- Home Page- landing page with a list of featured categories. Product Listing Page- where users can see all the products listed with filter section. Users can also add products to their wishlist and cart.  Wishlist and Cart Management - where users can manage their products. Authentication and Payment Integration."
     },{
         title: "Light-UI",
         type: "Component Library",
@@ -60,14 +66,16 @@ export const projects = [
         techStack: ["HTML5", " CSS3"],
         links: [{
             platform: "GitHub",
+            type:"Source code",
             icon: BsGithub,
             hyperlink:"https://github.com/MaruthiPothuganti/LightUI"
         },{
             platform: "Netlify",
+            type:"Live Preview",
             icon: SiNetlify,
             hyperlink:"https://lightui.netlify.app/"
             }],
         tldr:"A Re-usable Component Library built with HTML5 and CSS3",
-        description:"This Library consists of Various components which can be used directly in building Web Apps.<br/>Features: Avatar, Alert, Badges, Button, Card, Image, Toasts, Input, Lists, Navigation, Text-utilities, Modal, Rating, Slider, Grid"
+        description:"This Library consists of Various components which can be used directly in building Web Apps.Features: Avatar, Alert, Badges, Button, Card, Image, Toasts, Input, Lists, Navigation, Text-utilities, Modal, Rating, Slider, Grid"
     }
 ]
