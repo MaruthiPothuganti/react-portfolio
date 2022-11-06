@@ -16,7 +16,8 @@ export const projects = [
             platform: "Netlify",
             icon: SiNetlify,
             hyperlink:"https://inscrire.netlify.app/"
-        }],
+            }],
+        tldr:"A notes app made with ReactJS, React Draft Wysiwyg and TailwindCSS",
         description:"Users can add notes using the RichText Editor. Can also add priority levels, Tags and change the color of the Note cards. Moreover users can Archive and Trash the notes. Users can also Pin the crucial notes on the HomePage."
     },
     {
@@ -32,7 +33,8 @@ export const projects = [
             platform: "Vercel",
             icon: TbBrandVercel,
             hyperlink:"https://lube-video-streaming-app-maruthipothuganti.vercel.app/"
-        }],
+            }],
+        tldr:"A Video Streaming App Built with React, Redux ToolKit and Material UI",
         description:"A Video Streaming App Built with React, Redux ToolKit and Material UI. <br/>Features: Home Page, Video Listing Page, Playlist Management, Like/Dislike, Watch Later, History, DarkMode and Responsive WebApp"
     },
     {
@@ -48,7 +50,8 @@ export const projects = [
             platform: "Vercel",
             icon: TbBrandVercel,
             hyperlink:"https://lsuitify.vercel.app/"
-        }],
+            }],
+        tldr:"An E-commerce App for Suits built with ReactJS",
         description:"An E-commerce App for Suits built with ReactJS <br/> Features:- <br/>Home Page- landing page with a list of featured categories. <br/>Product Listing Page- where users can see all the products listed with filter section. Users can also add products to their wishlist and cart. <br/> Wishlist and Cart Management - where users can manage their products.<br/> Authentication and Payment Integration."
     },{
         title: "Light-UI",
@@ -63,7 +66,8 @@ export const projects = [
             platform: "Netlify",
             icon: SiNetlify,
             hyperlink:"https://lightui.netlify.app/"
-        }],
+            }],
+        tldr:"A Re-usable Component Library built with HTML5 and CSS3",
         description:"This Library consists of Various components which can be used directly in building Web Apps.<br/>Features: Avatar, Alert, Badges, Button, Card, Image, Toasts, Input, Lists, Navigation, Text-utilities, Modal, Rating, Slider, Grid"
     }
 ]
