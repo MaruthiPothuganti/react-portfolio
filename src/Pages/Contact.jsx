@@ -6,7 +6,7 @@ export const Contact = () => {
     <main className="h-screen w-full grid place-items-center text-white">
       <article className="w-[90%] md:w-[auto] grid gap-4">
         <div className="text-center leading-relaxed">
-          <h1 className="text-5xl mb-8">The Stage is Yours</h1>
+          <h1 className="text-4xl md:text-5xl mb-8">The Stage is Yours</h1>
           <p className="text-lg tracking-wide">
             I’m always looking to collaborate on interesting projects with great
             people.
@@ -45,6 +45,7 @@ export const Contact = () => {
             href="https://github.com/MaruthiPothuganti"
             target="_blank"
             className="hover:text-slate-400"
+            rel="noreferrer"
           >
             Github
             <FiArrowUpRight className="inline-flex" />
@@ -53,6 +54,7 @@ export const Contact = () => {
             href="https://twitter.com/maruthithedev"
             target="_blank"
             className="hover:text-slate-400"
+            rel="noreferrer"
           >
             Twitter
             <FiArrowUpRight className="inline-flex" />
@@ -61,6 +63,7 @@ export const Contact = () => {
             href="https://www.linkedin.com/in/maruthipothuganti/"
             target="_blank"
             className="hover:text-slate-400"
+            rel="noreferrer"
           >
             LinkedIn
             <FiArrowUpRight className="inline-flex" />

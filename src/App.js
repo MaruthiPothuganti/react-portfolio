@@ -5,8 +5,8 @@ import { Navbar } from "./Components/Navbar";
 
 function App() {
   return (
-    <main className="App relative h-screen">
-      <Navbar/>
+    <main className="App relative flex flex-col h-screen md:flex-row ">
+      <Navbar className="md:flex-auto"/>
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<LandingPage />} />

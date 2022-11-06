@@ -12,20 +12,21 @@ import {
 import { Link } from "react-router-dom";
 
 export const Info = () => {
-  const skills = [
-    "HTML5/CSS3",
-    "JavaScript",
-    "ReactJS",
-    "Redux Tool-Kit",
-    "Tailwind-CSS",
-    "ES6+",
-    "Responsive Web Design",
+  const skiller = [
+    { icon: TbBrandHtml5, skill: "HTML5" },
+    { icon: TbBrandCss3, skill: "CSS3" },
+    { icon: TbBrandJavascript, skill: "Javascript" },
+    { icon: RiReactjsLine, skill: "ReactJS" },
+    { icon: SiRedux, skill: "Redux Toolkit" },
+    { icon: TbBrandTailwind, skill: "TailwindCSS" },
+    { icon: "", skill: "ES+" },
+    { icon: "", skill: "Responsive Web Design" },
   ];
 
   return (
     <main className="h-screen w-full grid place-items-center text-white overflow-y-auto">
       <article className="w-[90%] md:w-[auto] grid gap-8 mb-[10%] mt-[10%]">
-        <h1 className="text-5xl text-center">Meet Maruthi</h1>
+        <h1 className="text-4xl md:text-5xl text-center">Meet Maruthi</h1>
         <section className="">
           <div className="max-w-2xl p-2  rounded-lg border-2 border-stone-900 hover:border-stone-800">
             <div className="">
@@ -36,7 +37,7 @@ export const Info = () => {
               />
               <div className="my-3">
                 <h2 className="text-2xl font-bold my-2">About Me</h2>
-                <p className="text-lg text-justify">
+                <p className="md:text-lg text-justify">
                   Hi, I'm Maruthi, a Frontend Developer from India. As a
                   software engineer, I enjoy bridging the gap between
                   engineering and design — combining my technical knowledge with
@@ -67,9 +68,15 @@ export const Info = () => {
               <div className="my-3">
                 <h2 className="text-2xl font-bold my-2">Skills</h2>
                 <div className="my-4 gap-3 flex flex-wrap">
-                  {skills.map((skill) => (
-                    <span key={skill} className="border-[1px] rounded-sm p-2">
-                      {skill}
+                  {skiller.map((skill) => (
+                    <span
+                      key={skill.skill}
+                      className="border-[1px] rounded-sm p-2 text-center"
+                    >
+                      {skill.icon && (
+                        <skill.icon size={22} className="inline-flex" />
+                      )}
+                      {skill.skill}
                     </span>
                   ))}
                 </div>
@@ -79,6 +86,9 @@ export const Info = () => {
             <Link to="/contact">
               <button className="text-2xl my-4 border-[1px] px-4 py-2  rounded-md hover:bg-white hover:text-black">
                 Get in Touch
+                <span>
+                  <CgHello className="inline-flex mx-2" />
+                </span>
               </button>
             </Link>
           </div>
