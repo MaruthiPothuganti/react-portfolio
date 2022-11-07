@@ -37,8 +37,6 @@ export const Navbar = () => {
     },
   ];
 
-  // flex absolute top-[40%] left-8 bg-[#1e1e1e] border-[#28282852] p-1 rounded-2xl
-
   return (
     <header className="grid place-items-center ml-4 sticky top-0">
       <nav className="flex flex-row bg-[#1e1e1e] border-[#28282852] p-1 rounded-2xl md:flex-col ">

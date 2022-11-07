@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { LandingPage, Projects, Project, Info, Blogs, Contact } from "./Pages";
-import { Navbar } from "./Components/Navbar";
+import  {Navbar}  from "../src/Components/Navbar";
 
 function App() {
   return (
