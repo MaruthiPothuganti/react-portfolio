@@ -6,8 +6,7 @@ export const Blogs = () => {
       <article className="w-[90%] md:w-[auto] grid gap-8 mb-[10%] mt-[10%]">
         <h1 className="text-5xl text-center">Thoughts</h1>
         <section className=" text-center">
-          Coming soon...
-          {/* <div className="max-w-2xl p-2  rounded-lg border-2 border-stone-900 hover:border-stone-800">
+          <div className="max-w-2xl p-2  rounded-lg border-2 border-stone-900 hover:border-stone-800">
             <img
               className="w-full h-[80%] rounded-lg"
               src="https://res.cloudinary.com/doo5jbomi/image/upload/v1661442940/Video%20Library/web_dev_destjb.jpg"
@@ -17,7 +16,8 @@ export const Blogs = () => {
               <h6 className="text-2xl">blog</h6>
               <p className="text-sm text-slate-400">type - date</p>
             </div>
-          </div> */}
+          </div>
+          Coming soon...
         </section>
       </article>
     </main>
